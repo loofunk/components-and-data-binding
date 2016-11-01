@@ -13,6 +13,7 @@ var AppComponent = (function () {
     function AppComponent() {
         this.name = 'Liam';
         this.age = 51;
+        this.cow = new Moo();
     }
     AppComponent = __decorate([
         core_1.Component({

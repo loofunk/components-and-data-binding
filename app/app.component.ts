@@ -10,6 +10,8 @@ export class AppComponent {
     name: string = 'Liam';
     age:number = 51;
 
+    cow:Moo = new Moo();
+
   constructor()
   {
 
