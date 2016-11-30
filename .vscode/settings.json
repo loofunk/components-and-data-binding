@@ -1,3 +1,11 @@
+// Place your settings in this file to overwrite default and user settings.
 {
-    "typescript.check.workspaceVersion": false
+    "typescript.tsdk": "./node_modules/typescript/lib",
+
+    // The following will hide the js and map files in the editor
+    "files.exclude": {
+        "**/*.js": true,
+        "**/*.map": true,
+        "node_modules/": true
+    }
 }
